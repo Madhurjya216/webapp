@@ -20,5 +20,5 @@ app.use("/api/users", userRoutes);
 app.use("/api/auth", authRoutes);
 
 // listening server 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 8080; 
 app.listen(port, console.log(`Listening on port ${port}...`));
